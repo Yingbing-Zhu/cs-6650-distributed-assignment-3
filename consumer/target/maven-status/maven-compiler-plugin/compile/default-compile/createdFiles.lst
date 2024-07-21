@@ -1,0 +1,4 @@
+Consumer.class
+config/MySQLDatabaseSetup.class
+MySQLQuery.class
+connection/HikariCPConnectionPool.class
