@@ -17,8 +17,8 @@ public class Consumer {
     private static final String SERVER = "34.220.244.203"; // broker url
     // private static final String SERVER = "localhost"; // local test
 
-    // use 50 result in imbalanced publish vs. consume rate; 100; 150
-    private final static Integer NUM_THREADS = 60;
+    // test on consumer threads: 50, 60, 100
+    private final static Integer NUM_THREADS = 50;
     private static Gson gson = new Gson();
     private static HikariCPConnectionPool connectionPool;
     // mysql setup
